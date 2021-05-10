@@ -1,4 +1,4 @@
-var prompt = require('prompt-sync')({
+const prompt = require('prompt-sync')({
     history: require('prompt-sync-history')(), //open history file
     sigint: true
   });
